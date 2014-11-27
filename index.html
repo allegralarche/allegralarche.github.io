@@ -4,36 +4,114 @@
     <link rel="stylesheet" type="style/CSS" href="stylesheets/style.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10/jquery.min.js"></script>
-    <script src="jquery-1.10.2.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery-1.11.1.min.js"></script>
     <script src="myScript.js"></script>
-
 </head>
 <body>
     <div class="header">
         <h1 class="fixed">ALLEGRA LARCHE</h1>
-        <div class="navbar fixed">
-            <ul>
-                <li id="about-nav">About</li>
-                <li id="experience-nav">Experience</li>
-                <li id="pp-nav">Past Projects</li>
-                <li id="contact-nav">Contact</li>
-            </ul>
-        </div>
+        <ul class="navbar fixed">
+            <li id="about-nav">About</li>
+            <li id="course-nav">Coursework</li>
+            <li id="experience-nav">Experience</li>
+            <li id="contact-nav">Contact</li>
+        </ul>
     </div>
     <div class="body" id="about">
-        Write a paragraph about yourself
+        I'm a junior at UPenn majoring in Computer and Information Science
+        and minoring in math/history. I also serve on Penn's Advancing Women in
+        Engineering advisory board and have just been elected VP of Intellectual
+        Development for my sorority, Alpha Chi Omega. </br></br>
+        I'm originally from a small town (bubble) in New Jersey, so I love exploring
+        the cities I've had the privelege of living in since going to college. Between
+        going to school in Philly, interning in New York this past summer, and studying
+        abroad in Edinburgh this fall, I've spent a lot of my free time over the
+        past few years trying to see and experience as much of what these places
+        have to offer as I can. I'm also an avid runner, lover of fine budget dining,
+        aspiring spotify playlist curator, and (unsurprisingly enough for an engineer)
+        huge Harry Potter fan.</br></br>
+        Please feel free to reach out to me using the contact form on the site.
+    </div>
+    <div class="body" id="course">
+        <div class="semester-head">Spring 2015 (Tentative)</div>
+        <ul class="class-list">
+            <li>Urban Studies: The City</li>
+            <li><span class="major">Intro to Networks and Security</span></li>
+            <li><span class="major">Computer Organization and Design</span></li>
+            <li>Algorithmic Game Theory</li>
+        </ul>
+        <div class="semester-head">Fall 2014 (Abroad)</div>
+        <ul class="class-list">
+            <li>Modern Scottish History</li>
+            <li>Asian and African Studies</li>
+            <li><span class="major">Operating Systems</span></li>
+            <li><span class="major">Introductory Applied Machine Learning</span></li>
+        </ul>
+        <div class="semester-head">Spring 2014</div>
+        <ul class="class-list">
+            <li><span class="major">Intro to Algorithms</span></li>
+            <li><span class="major">Software Design and Engineering</span></li>
+            <li><span class="major">Algorithms for Data Streams</span></li>
+            <li>Calculus IV</li>
+            <li>Markets and Social Systems on the Internet</li>
+        </ul>
+        <div class="semester-head">Fall 2013</div>
+        <ul class="class-list">
+            <li><span class="major">Ruby on Rails Web Dev (Half Cred)</span></li>
+            <li><span class="major">Intro to Computer Systems</span></li>
+            <li><span class="major">Discrete Probability and Statistical Inference</span></li>
+            <li><span class="major">Automata, Computability, and Complexity</span></li>
+            <li>Portraits of Russian Society</li>
+        </ul>
+        <div class="semester-head">Spring 2013</div>
+        <ul class="class-list">
+            <li><span class="major">Prgramming Languages and Tech II</span></li>
+            <li>Intro to Microeconomics</li>
+            <li>Calculus III</li>
+            <li>Computational Linear Algebra</li>
+            <li>Principles of Physics II</li>
+        </ul>
+        <div class="semester-head">Fall 2012</div>
+        <ul class="class-list">
+            <li>Ancient Greek History</li>
+            <li><span class="major">Programming Languages and Tech I</span></li>
+            <li><span class="major">Math Foundations of Computer Science</span></li>
+            <li>Calculus II</li>
+            <li>Writing Seminar: Jane Austens</li>
+        </ul>
+
     </div>
     <div class="body" id="experience">
-        Work and leadership experience goes here.
-    </div>
-    <div class="body" id="pp">
-        Unordered list of PennApps 2013 and 2014
+        <div class="work-head">Summer 2014</div>
+        <div class="work-position">The Sports Quotient: Programming Intern</div>
+        <p class="work-description">This past summer I worked at a small sports media website that was looking to migrate their
+            content-heavy site form wordpress to a faster and more easily customizable platform. I had never worked with Django before,
+            but my coworker had some experience with it and suggested we use it for the new site. I was quickly brought up to speed, and the
+            two of us worked together to completely rebuild and revamp the site from scratch over the ten weeks we worked there. In addition to
+            the migration, we added a new tracking system for editors and writers in the backend to help everyone stay on top of their work, a more
+            intricate quiz system, and a generally more friendly user interface for readers. I think I learned more about web development and
+            design over the course of this summer than I have over the course of my entire programming career!</p>
+            <a href="http://web.archive.org/web/20140625034955/http://thesportsquotient.com/">Check out the site before...</a><br>
+            <a href="thesportsquotient.com">The Sports Quotient now</a>
+        <div class="work-head">Summer 2013</div>
+        <div class="work-position">Internal Drive Tech Camps:Instructor</div>
+        <p class="work-description">The summer after my freshman year, I worked at a camp near my home teaching kids aged 9-12 basic
+            programming concepts. The course used the game of <a href="https://minecraft.net/">Minecraft</a> and its intricate built-in command
+            block system to demonstrate concepts like logic flow and loops to the campers. The task for their final projects was to make a multi-
+            stage game using the skills they learned in the course that could be played by their peers within Minecraft. This was a beyond-
+            rewarding experience for me; I was constantly in awe of how much these kids were able to learn and accomplish in just one week.</p>
     </div>
     <div class="body" id="Contact">
-        PHP email form from PHP tutorial
+        <form action="MAILTO:allegralarche@gmail.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name" required><br>
+            E-mail:<br>
+            <input type="email" name="email" placeholder="so I can get back to you!" required><br>
+            Comment:<br>
+            <textarea name="message" rows="15" cols="70" required><br><br>
+            <input type="submit" value="Send">
+        </form>
     </div>
-
-
 </body>
 </html>
