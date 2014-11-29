@@ -11,11 +11,11 @@
 <body>
     <div class="header">
         <h1 class="fixed">ALLEGRA LARCHE</h1>
-        <ul class="navbar fixed">
-            <li id="about-nav">About</li>
-            <li id="course-nav">Coursework</li>
-            <li id="experience-nav">Experience</li>
-            <li id="contact-nav">Contact</li>
+        <ul id="navbar">
+            <li id="aboutnav" onClick="navClick('about')">About</li>
+            <li id="coursenav" onClick="navClick('course')">Coursework</li>
+            <li id="experiencenav" onClick="navClick('experience')">Experience</li>
+            <li id="contactnav" onClick="navClick('contact')">Contact</li>
         </ul>
     </div>
     <div class="body" id="about">
@@ -102,14 +102,14 @@
             stage game using the skills they learned in the course that could be played by their peers within Minecraft. This was a beyond-
             rewarding experience for me; I was constantly in awe of how much these kids were able to learn and accomplish in just one week.</p>
     </div>
-    <div class="body" id="Contact">
+    <div class="body" id="contact">
         <form action="MAILTO:allegralarche@gmail.com" method="post" enctype="text/plain">
             Name:<br>
             <input type="text" name="name" required><br>
             E-mail:<br>
             <input type="email" name="email" placeholder="so I can get back to you!" required><br>
             Comment:<br>
-            <textarea name="message" rows="15" cols="70" required><br><br>
+            <textarea name="message" rows="15" cols="70" required></textarea><br><br>
             <input type="submit" value="Send">
         </form>
     </div>

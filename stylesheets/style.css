@@ -6,9 +6,6 @@
     padding-right: auto;
     font-family: 'Oswald', sans-serif;
 }
-/*.fixed {
-    position: fixed;
-}*/
 .navbar {
 
 }
@@ -25,10 +22,6 @@ a {
     margin-right: 20px;
     display: block;
     color: black;
-}
-a:hover {
-/*	color: maroon;*/
-    background-color: lightgray;
 }
 .body {
     clear: both;
