@@ -1,28 +1,51 @@
 .header {
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
-    padding-left: auto;
-    padding-right: auto;
+    max-width: 900px;
     font-family: 'Oswald', sans-serif;
+    text-align:center;
+    margin-bottom: 10px;
+    background: url('../images/header.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
-.navbar {
-
+h1 {
+    font-size: 50px;
 }
-ul {
+h1:hover, #navbar>li:hover {
+    cursor: pointer;
+}
+#navbar>li:hover, a:hover {
+    opacity: .5;
+}
+#navbar {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    width: 225px;
+    height: 40px;
+    margin: auto;
+    font-weight: bold;
 }
-li {
+#navbar li {
     float: left;
+    padding-right: 5px;
 }
 a {
     text-decoration: none;
     margin-right: 20px;
     display: block;
-    color: black;
 }
 .body {
     clear: both;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Arvo', serif;
+}
+
+.major, a {
+    color: #669999;
+}
+
+.semester-head, .work-head, .work-position {
+    font-weight: bold;
 }
