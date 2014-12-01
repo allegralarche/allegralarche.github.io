@@ -23,4 +23,5 @@ function hideAll() {
 
 $(document).ready(function() {
     navClick("about");
+    $('a').attr("target", "_blank");
 })

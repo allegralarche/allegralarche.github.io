@@ -24,6 +24,7 @@ h1:hover, #navbar>li:hover {
     height: 40px;
     margin: auto;
     font-weight: bold;
+    padding-left: 0px;
 }
 #navbar li {
     float: left;
